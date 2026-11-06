@@ -1,0 +1,42 @@
+.header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/img/Header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-pizza-ingredients {
+  min-height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root > footer {
+  margin-top: auto;
+}
+
+.cart-img {
+  width: 60px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.not-found-emoji {
+  font-size: 5rem;
+  line-height: 1;
+}
